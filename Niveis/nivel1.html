@@ -1,27 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Niveis/modulo1.css">
+    <link rel="stylesheet" href="../Niveis/nivel1.css">
     <title>Document</title>
+    
 </head>
+
 <body>
     <header>
         <p class="titulo">InfoSec Pro - Treinamento</p>
-        <div class="pontinho"><p class="ponto">
-            Pontos:0</p></div>
-    </header>
-    <div><a href="../index.HTML">Voltar para a Trilha</a></div>
-    <h1>Módulo 1: Fundamentos da Segurança</h1>
-    <h2>O Tripé da Segurança: Confidencialidade, Integridade e Disponibilidade (CID)</h2>
-    <p>Este é o conceito fundamental de Segurança da Informação. Tudo o que fazemos visa proteger um ou mais desses pilares.</p>
-    <ul>
-        <li>Confidencialidade: Garantir que a informação seja acessível apenas por aqueles autorizados. (Exemplo: Criptografia, Senhas fortes).</li>
-        <li>Integridade: Garantir que a informação seja completa e precisa, protegida contra modificações não autorizadas. (Exemplo: Hash, Controle de Soma de Verificação).</li>
-        <li>Disponibilidade: Garantir que os sistemas e os dados estejam acessíveis para os usuários autorizados quando necessário. (Exemplo: Backups, Planos de Contingência, Redundância).</li>
+        <div class="pontinho">
+            <p class="ponto">
+                Pontos:0</p>
+        </div>
+    </header> 
 
-    </ul>
-
+    <div class="conteudo">
+        <div class="link"><a  href="../index.HTML"><img src="../imagnes/icons8-seta-apontando-para-a-esquerda-64.png" alt=""> Voltar para a Trilha </a ></div>
+        <h1>Módulo 1: Fundamentos da Segurança</h1>
+        <h2>O Tripé da Segurança: Confidencialidade, Integridade e Disponibilidade (CID)</h2>
+        <p>Este é o conceito fundamental de Segurança da Informação. Tudo o que fazemos visa proteger um ou mais desses
+            pilares.</p>
+        <ul>
+            <li>Confidencialidade: Garantir que a informação seja acessível apenas por aqueles autorizados. (Exemplo:
+                Criptografia, Senhas fortes).</li>
+            <li>Integridade: Garantir que a informação seja completa e precisa, protegida contra modificações não
+                autorizadas. (Exemplo: Hash, Controle de Soma de Verificação).</li>
+            <li>Disponibilidade: Garantir que os sistemas e os dados estejam acessíveis para os usuários autorizados
+                quando necessário. (Exemplo: Backups, Planos de Contingência, Redundância).</li>
+        </ul>
+        <h3 >Missão do Módulo: Teste de Conhecimento</h2>
+        <form action="">
+            <div class="questoes">
+                <h3>Pergunta 1: Qual pilar garante que a informação só será vista por quem deve?</h3> <br>
+                <input type="radio" name="1"> Confidencialidade <br>
+                <input type="radio" name="1"> Integridade <br>
+                <input type="radio" name="1"> Disponibilidade <br>
+            </div>
+            <div class="questoes">
+                <h3>Pergunta 2: Um backup regular visa garantir principalmente qual pilar?</h3> <br>
+                <input type="radio" name="2"> Confidencialidade <br>
+                <input type="radio" name="2"> Integridade <br>
+                <input type="radio" name="2"> Disponibilidade <br>
+            </div>
+            <div class="questoes">
+                <h3>Pergunta 3: O uso de uma senha forte está diretamente ligado a qual pilar?</h3> <br>
+                <input type="radio" name="3"> Confidencialidade <br>
+                <input type="radio" name="3"> Disponibilidade <br>
+                <input type="radio" name="3"> Integridade<br>
+            </div>
+            <input type="submit" name="enviar" id="enviar" class="submit">
+        </form>
+    </div>
 </body>
+
 </html>
